@@ -1,6 +1,5 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,11 +16,22 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Inter", sans-serif;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  max-width: 780px;
+  margin: 0 auto;
 }
+
+.titleBar {
+  @apply m-auto mt-8 w-4/5 rounded-3xl bg-rb-yellow-400 text-center;
+}
+.title {
+  @apply mx-4 font-black text-rb-verde1-400;
+}
+
+.videoContainer {
+  @apply m-0 aspect-video	w-full;
+}
+@tailwind utilities;
