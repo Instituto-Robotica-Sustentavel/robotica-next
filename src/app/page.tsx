@@ -5,7 +5,7 @@ import { WhatsappIcon } from "./components/WhatsappIcon";
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="textBody min-h-screen">
       <Header />
       <Main />
       <WhatsappIcon />
