@@ -6,7 +6,7 @@ export function MissionAndValues() {
       </div>
       <div className="mb-4 ml-auto mr-auto mt-4 w-4/5 text-justify text-sm font-bold text-rb-verde2-400">
         <p>
-          Somos uma empresa especializada em Educação Tecnológica, através da
+          Somos um instituto especializado em Educação Tecnológica, através da
           sustentabilidade e tecnologia. Para isso, desenvolvemos a metodologia
           Robótica Sustentável, unindo as áreas mais modernas e inovadoras da
           educação, como o S.T.E.A.M. Maker, Robótica Educacional,
