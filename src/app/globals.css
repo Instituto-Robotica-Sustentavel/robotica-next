@@ -17,11 +17,11 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: #eee;
   display: flex;
   flex-direction: column;
   max-width: 780px;
   margin: 0 auto;
+  @apply bg-rb-yellow-200;
 }
 
 .textBody {
