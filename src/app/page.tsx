@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
 import { WhatsappIcon } from "./components/WhatsappIcon";
