@@ -1,4 +1,8 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
   '@types/node':
@@ -31,6 +35,9 @@ dependencies:
   react-dom:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
+  react-floating-whatsapp:
+    specifier: ^5.0.8
+    version: 5.0.8(react-dom@18.2.0)(react@18.2.0)
   tailwindcss:
     specifier: 3.3.2
     version: 3.3.2
@@ -2281,6 +2288,17 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-floating-whatsapp@5.0.8(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-4X485d04u7MoWpn61OpWPO/mL94P3gaFq1L932ztH7bo9eClAFcg5ufIxNKbJo9/1h0xpjWZKEW0KBB0apWzZw==}
+    engines: {node: '>=16'}
+    peerDependencies:
+      react: '>=18.0.0'
+      react-dom: '>=18.0.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /react-is@16.13.1:

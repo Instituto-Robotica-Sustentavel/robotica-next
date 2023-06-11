@@ -22,6 +22,7 @@ body {
   flex-direction: column;
   max-width: 780px;
   margin: 0 auto;
+  @apply text-[12px] sm:text-base;
 }
 
 .titleBar {
